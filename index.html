@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio del Dr. Pérez</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        .hero {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .about, .services, .contact {
+            padding: 60px 0;
+        }
+        .about {
+            background-color: #8BC34A;
+            color: #fff;
+        }
+        .services {
+            background-color: #FF9800;
+            color: #fff;
+        }
+        .contact {
+            background-color: #03A9F4;
+            color: #fff;
+        }
+        .service-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Bienvenido al Consultorio del Dr. Pérez</h1>
+            <p>Atención médica de calidad para toda la familia</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Sobre el Dr. Pérez</h2>
+                    <p>El Dr. Pérez es un médico con más de 20 años de experiencia en la atención de pacientes. Su misión es proporcionar atención médica de calidad y compasiva.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="dr.jpeg" alt="Dr. Pérez" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <i class="service-icon fas fa-user-md"></i>
+                    <h3>Cirugías</h3>
+                    <p>Realizamos cirugías con los más altos estándares de seguridad y eficiencia.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="service-icon fas fa-stethoscope"></i>
+                    <h3>Consulta General</h3>
+                    <p>Atención médica general para todas las edades.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="service-icon fas fa-heartbeat"></i>
+                    <h3>Diabetes</h3>
+                    <p>Ayuda y manejo especializado para pacientes con diabetes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <p class="text-center">Para citas o más información, contáctenos:</p>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Nombre</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Correo Electrónico">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage">Mensaje</label>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Su mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
